@@ -1,0 +1,20 @@
+@font-face{
+    font-family: 'Navbar';
+    src: url('../character/Poppins-ExtraLight.ttf');
+}
+
+.Navbar{
+    height: 70px;width: 100%;
+    position: fixed;top: 0%;left: 0%;z-index: 1;
+    display: flex;
+    background-color: #E6DB28;
+    font-family: 'Navbar';
+}
+
+    .Navbar__logo{width: 10%;}
+    .Navbar__menu{width: 20%;position: relative;left: 70%;}
+        .Menu{height: 100%;margin: 0%;}
+            .Menu__btn{height: 30px;display: inline-block;margin-top: 6%;margin-right: 15%;border-radius: 5%;list-style: none;color: black;text-align: center;}
+            .Menu__btn:hover{background-color: black;color: #E6DB28;}
+            
+        

@@ -1,0 +1,24 @@
+@font-face{
+    font-family: CardText;
+    src: url(../character/Poppins-Regular.ttf);
+}
+a{
+    text-decoration: none;
+}
+
+.CardLink{
+    border: 1px solid red;
+    width: 50%;
+    height: 300px;
+}
+    .Icon{
+        border: 1px solid red;
+        height: 70px;
+        display: flex;align-items: center;justify-content: center;
+    }
+    .Text{
+        font-family: 'CardText';
+        text-align: center;
+        border: 1px solid red;
+        height: 230px;
+    }
