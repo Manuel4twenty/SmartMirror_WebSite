@@ -1,0 +1,41 @@
+@font-face{
+    font-family: FooterP;
+    src: url("../character/Poppins-Light.ttf");
+}
+
+@font-face{
+    font-family: FooterH1;
+    src: url("../character/Poppins-Regular.ttf");
+}
+
+
+.Footer{
+    background-color: black;color: #E6DB28;
+   
+   height: 120px;display: flex;
+}
+
+    .Footer__links{width: 50%;height: 100%;text-align: center;}
+        .Footer__links h1{
+            width: 20%;position: relative;left: 35%;margin-top: 1%;
+            font-family: FooterH1;font-size: 25px;text-shadow: 1px 1px #CCC427;
+        }
+        .Footer__links li{
+            display: inline-block;margin: 0% 10%;position: relative;top: 5%;
+            font-size: 15px;
+            text-decoration: none;color: #E6DB28;
+            font-family: FooterP ;
+        }
+        .Footer__links li:hover{color: black;background-color: #E6DB28;border-radius: 5%;}
+    .Footer__contact{
+        width: 50%;height: 100%;
+    }
+        .Footer__contact h1{
+            width: 20%;text-align: center;
+            position: relative;left: 40%;margin-top: 1%;text-shadow: 1px 1px #CCC427;
+            font-family: FooterH1;font-size: 25px;
+        }
+        .Footer__contact li{
+            display: inline-block;margin: 0% 10%;position: relative;top: 5%;
+            font-family: FooterP;font-size: 15px;
+        }

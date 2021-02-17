@@ -16,11 +16,12 @@ function CardLink(props){
                 <div className="Text">
                     <p>{props.text}</p>
                     <a href={props.url}></a>
-                    <div className="url">
-                        <a href={props.url}>{props.link}</a>
-                    </div>
+                    
+                    
                 </div>
-                
+                <div className="url">
+                    <a href={props.url}>{props.link}</a>
+                </div>
             </div>
         </div>
 

@@ -14,7 +14,7 @@
     .Navbar__logo{width: 10%;}
     .Navbar__menu{width: 20%;position: relative;left: 70%;}
         .Menu{height: 100%;margin: 0%;}
-            .Menu__btn{height: 30px;display: inline-block;margin-top: 6%;margin-right: 15%;border-radius: 5%;list-style: none;color: black;text-align: center;}
-            .Menu__btn:hover{background-color: black;color: #E6DB28;}
+            .Menu__btn{height: 30px;display: inline-block;margin-top: 6%;margin-right: 15%;list-style: none;color: black;text-align: center;}
+            .Menu__btn:hover{background-color: black;color: #E6DB28;border-radius: 10%}
             
         

@@ -7,18 +7,26 @@ a{
 }
 
 .CardLink{
-    border: 1px solid red;
-    width: 50%;
-    height: 300px;
+    width: 50%;height: 280px;
+    margin-top: 10%;
 }
+    
     .Icon{
-        border: 1px solid red;
         height: 70px;
         display: flex;align-items: center;justify-content: center;
     }
     .Text{
         font-family: 'CardText';
         text-align: center;
-        border: 1px solid red;
-        height: 230px;
+        height: 150px;
     }
+
+    
+    .url{
+        font-family: 'CardText';
+        height: 50px;
+        display: flex;align-items: center;justify-content: center;
+        animation: 5s linear;
+    }
+        .url a{background-color: #E6DB28;width: 60%;text-align: center;color: black;}
+        .url a:hover{transform: translateY(-10%);box-shadow: 1px 1px 0px 0px black;}

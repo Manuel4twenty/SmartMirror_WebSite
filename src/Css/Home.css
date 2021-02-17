@@ -25,13 +25,18 @@
         text-shadow:2px 2px rgba(0, 0, 0, 1);
     }
 .Links{
-    height: 300px;
-    width: 80%;display: flex;margin-right: 5%;
+    height: 360px;
+    width: 80%;display: flex;position: relative;left: 10%;
 }
     .Links__link{
         width: 50%;
         display: flex;justify-content: center;
     }
-    #GitHub{border: 1px solid red;}
-    #Documentation{border: 1px solid red;}
-    #Contact{border: 1px solid red;}
+.Video__container{
+    height: 500px;
+    margin: 5% 5%;
+}
+    .Video__player{
+        height: 500px;
+        width: 50%;position: relative;left: 25%;
+    }
